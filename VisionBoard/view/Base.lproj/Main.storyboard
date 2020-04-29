@@ -31,7 +31,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Vision Board" id="1nc-LP-5HX">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="rEB-Rh-jo2">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="addVisionBoardPressed:" destination="l3D-YR-uyT" id="GoZ-7Y-fMz"/>
                             </connections>
@@ -70,7 +70,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Goals" id="Ss7-wW-3Hq">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="3jf-I1-uXc">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="addGoalPressed:" destination="JUa-NS-Jd0" id="DEi-VB-4Ua"/>
                             </connections>
@@ -84,13 +84,24 @@
         <!--Navigation Controller-->
         <scene sceneID="ucX-qw-JiQ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SHL-FE-Ryl" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="SHL-FE-Ryl" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5Wr-oD-4co">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="5Wr-oD-4co">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VDo-Gb-9XK">
+                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="l3D-YR-uyT" kind="relationship" relationship="rootViewController" id="HON-R2-hpo"/>
                     </connections>
