@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A697F3D2459704900D37F18 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A697F3C2459704900D37F18 /* GoalViewController.swift */; };
+		9A697F402459937A00D37F18 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A697F3F2459937A00D37F18 /* SwipeTableViewController.swift */; };
 		9AC21B502459632D008ADB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC21B4F2459632D008ADB7A /* AppDelegate.swift */; };
 		9AC21B522459632D008ADB7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC21B512459632D008ADB7A /* SceneDelegate.swift */; };
-		9AC21B542459632D008ADB7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC21B532459632D008ADB7A /* ViewController.swift */; };
+		9AC21B542459632D008ADB7A /* VisionBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC21B532459632D008ADB7A /* VisionBoardViewController.swift */; };
 		9AC21B572459632D008ADB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC21B552459632D008ADB7A /* Main.storyboard */; };
 		9AC21B5924596330008ADB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC21B5824596330008ADB7A /* Assets.xcassets */; };
 		9AC21B5C24596330008ADB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC21B5A24596330008ADB7A /* LaunchScreen.storyboard */; };
+		9AC21B6724596B1D008ADB7A /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC21B6624596B1D008ADB7A /* Goal.swift */; };
+		9AC21B6924596C01008ADB7A /* VisionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC21B6824596C01008ADB7A /* VisionBoard.swift */; };
+		9FE0733092DEA4DF7E3F2F3F /* Pods_VisionBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C216325791ADAA8320BF41B9 /* Pods_VisionBoard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A697F3C2459704900D37F18 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		9A697F3F2459937A00D37F18 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		9AC21B4C2459632D008ADB7A /* VisionBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC21B4F2459632D008ADB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AC21B512459632D008ADB7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9AC21B532459632D008ADB7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AC21B532459632D008ADB7A /* VisionBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionBoardViewController.swift; sourceTree = "<group>"; };
 		9AC21B562459632D008ADB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AC21B5824596330008ADB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC21B5B24596330008ADB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AC21B5D24596330008ADB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC21B6624596B1D008ADB7A /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		9AC21B6824596C01008ADB7A /* VisionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionBoard.swift; sourceTree = "<group>"; };
+		B95F025B4B81D28856D975BC /* Pods-VisionBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionBoard.debug.xcconfig"; path = "Target Support Files/Pods-VisionBoard/Pods-VisionBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		C216325791ADAA8320BF41B9 /* Pods_VisionBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6532A7470B6857F3B03E912 /* Pods-VisionBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionBoard.release.xcconfig"; path = "Target Support Files/Pods-VisionBoard/Pods-VisionBoard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE0733092DEA4DF7E3F2F3F /* Pods_VisionBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B009DFD4D42C0E8941D99F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B95F025B4B81D28856D975BC /* Pods-VisionBoard.debug.xcconfig */,
+				E6532A7470B6857F3B03E912 /* Pods-VisionBoard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A697F3E2459877100D37F18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC21B5824596330008ADB7A /* Assets.xcassets */,
+				9AC21B512459632D008ADB7A /* SceneDelegate.swift */,
+				9AC21B5A24596330008ADB7A /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		9AC21B432459632D008ADB7A = {
 			isa = PBXGroup;
 			children = (
 				9AC21B4E2459632D008ADB7A /* VisionBoard */,
 				9AC21B4D2459632D008ADB7A /* Products */,
+				6B009DFD4D42C0E8941D99F7 /* Pods */,
+				A1E591BC11FBC51CFBAE1680 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,49 @@
 		9AC21B4E2459632D008ADB7A /* VisionBoard */ = {
 			isa = PBXGroup;
 			children = (
+				9A697F3E2459877100D37F18 /* Support Files */,
+				9AC21B65245963CD008ADB7A /* model */,
+				9AC21B64245963C8008ADB7A /* controller */,
+				9AC21B63245963C1008ADB7A /* view */,
 				9AC21B4F2459632D008ADB7A /* AppDelegate.swift */,
-				9AC21B512459632D008ADB7A /* SceneDelegate.swift */,
-				9AC21B532459632D008ADB7A /* ViewController.swift */,
-				9AC21B552459632D008ADB7A /* Main.storyboard */,
-				9AC21B5824596330008ADB7A /* Assets.xcassets */,
-				9AC21B5A24596330008ADB7A /* LaunchScreen.storyboard */,
 				9AC21B5D24596330008ADB7A /* Info.plist */,
 			);
 			path = VisionBoard;
+			sourceTree = "<group>";
+		};
+		9AC21B63245963C1008ADB7A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9AC21B552459632D008ADB7A /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9AC21B64245963C8008ADB7A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AC21B532459632D008ADB7A /* VisionBoardViewController.swift */,
+				9A697F3C2459704900D37F18 /* GoalViewController.swift */,
+				9A697F3F2459937A00D37F18 /* SwipeTableViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9AC21B65245963CD008ADB7A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9AC21B6624596B1D008ADB7A /* Goal.swift */,
+				9AC21B6824596C01008ADB7A /* VisionBoard.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A1E591BC11FBC51CFBAE1680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C216325791ADAA8320BF41B9 /* Pods_VisionBoard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AC21B6024596330008ADB7A /* Build configuration list for PBXNativeTarget "VisionBoard" */;
 			buildPhases = (
+				A5A01AC3A55A2C03920ED2C6 /* [CP] Check Pods Manifest.lock */,
 				9AC21B482459632D008ADB7A /* Sources */,
 				9AC21B492459632D008ADB7A /* Frameworks */,
 				9AC21B4A2459632D008ADB7A /* Resources */,
+				4F7ADFDACC275813482E264D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +203,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F7ADFDACC275813482E264D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionBoard/Pods-VisionBoard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionBoard/Pods-VisionBoard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionBoard/Pods-VisionBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A01AC3A55A2C03920ED2C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisionBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AC21B482459632D008ADB7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC21B542459632D008ADB7A /* ViewController.swift in Sources */,
+				9AC21B6924596C01008ADB7A /* VisionBoard.swift in Sources */,
+				9AC21B542459632D008ADB7A /* VisionBoardViewController.swift in Sources */,
 				9AC21B502459632D008ADB7A /* AppDelegate.swift in Sources */,
+				9A697F402459937A00D37F18 /* SwipeTableViewController.swift in Sources */,
+				9A697F3D2459704900D37F18 /* GoalViewController.swift in Sources */,
 				9AC21B522459632D008ADB7A /* SceneDelegate.swift in Sources */,
+				9AC21B6724596B1D008ADB7A /* Goal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +398,7 @@
 		};
 		9AC21B6124596330008ADB7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95F025B4B81D28856D975BC /* Pods-VisionBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +417,7 @@
 		};
 		9AC21B6224596330008ADB7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6532A7470B6857F3B03E912 /* Pods-VisionBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
